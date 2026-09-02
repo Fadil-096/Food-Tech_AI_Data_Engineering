@@ -57,6 +57,8 @@ The AI layer runs entirely on **local models through Ollama** using an OpenAI-co
 
 ## Dataset
 
+**Dataset Link** - (https://drive.google.com/drive/folders/1FEnGWMHhHzzTUCZOw1-YnH2v3DMuM-rs)
+
 | Table | Volume |
 |---|---|
 | `orders` | 10,000,000 rows |
@@ -69,7 +71,6 @@ The AI layer runs entirely on **local models through Ollama** using an OpenAI-co
 
 The volume is the point. At ten million rows a full rebuild on every run stops being acceptable, which is what forces the fact tables to be incremental. And 300,000 reviews are unstructured text that no amount of SQL turns into a metric, which is what creates the need for an AI layer.
 
-**Dataset Link** - (https://drive.google.com/drive/folders/1FEnGWMHhHzzTUCZOw1-YnH2v3DMuM-rs)
 
 ---
 
