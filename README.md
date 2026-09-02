@@ -329,6 +329,6 @@ A condensed walkthrough of the architecture and design decisions is available as
 
 ## Author
 
-**Fadil**
+**Fadil Ahmed**
 
 Additional query outputs for both AI applications — covering delivery, food quality, packaging, pricing and sentiment analysis — are in [`Screen_Shots_Output/`](Screen_Shots_Output/).
