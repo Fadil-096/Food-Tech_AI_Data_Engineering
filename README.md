@@ -69,7 +69,7 @@ The AI layer runs entirely on **local models through Ollama** using an OpenAI-co
 
 ## Dataset
 
-**Dataset Link** - (https://drive.google.com/drive/folders/1FEnGWMHhHzzTUCZOw1-YnH2v3DMuM-rs)
+**Dataset Link** - (https://drive.google.com/drive/folders/1_dwsOGOMeiklN4Xi6_wAJoQ7-OuKLnQM)
 
 | Table | Volume |
 |---|---|
