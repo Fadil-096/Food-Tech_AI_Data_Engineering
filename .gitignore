@@ -1,0 +1,30 @@
+# Secrets
+.env
+*.env
+!example.env
+profiles.yml
+Credentials.txt
+
+# Data — far past GitHub's limits
+Data/
+*.csv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Airflow
+airflow/logs/
+airflow/plugins/
+
+# OS
+.DS_Store
+Thumbs.db
+# dbt local
+.user.yml

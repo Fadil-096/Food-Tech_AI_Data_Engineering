@@ -1,0 +1,28 @@
+Food-Tech AI Data Analytics — Python dependencies
+Install into the project venv:
+   .venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+ 
+#Transformation (dbt)
+#Pin to the same minor as your installed dbt-core (currently 1.12.2).
+#The adapter and core must share a minor version or dbt refuses to start.
+dbt-snowflake~=1.12.0
+ 
+#Warehouse access 
+#The [pandas] extra pulls in pyarrow, which fetch_pandas_all() requires
+#in rag_chat.py and text_to_sql.py.
+snowflake-connector-python[pandas]>=3.12
+ 
+#AI layer
+#Used for Gemini (via its OpenAI-compatible endpoint) in enrich_reviews.py
+#and for Ollama in rag_chat.py / text_to_sql.py.
+openai>=1.55
+python-dotenv>=1.0
+ 
+#Serving
+streamlit>=1.40
+ 
+#Data handling
+pandas>=2.2
+numpy>=1.26
+pyarrow>=17.0
